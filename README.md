@@ -31,7 +31,7 @@ pip install -r requirements.txt
 Run the detection pipeline using a standard USB webcam. Note: Ensure your trained weights file (best.pt) is placed in the weights/ directory.
 ```bash
 python src/run.py --model weights/best.pt --source usb0 --thresh 0.5
-Note for Edge Deployment: If running inference directly on a Raspberry Pi using a native Pi Camera (--source picamera0), ensure the picamera2 library is installed on your local system environment. Standard USB webcams do not require this module.
+# Note for Edge Deployment: If running inference directly on a Raspberry Pi using a native Pi Camera (--source picamera0), ensure the picamera2 library is installed on your local system environment. Standard USB webcams do not require this module.
 ```
 
 ### 3. Training Metrics
