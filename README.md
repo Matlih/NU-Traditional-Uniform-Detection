@@ -35,6 +35,7 @@ python src/run.py --model weights/best.pt --source usb0 --thresh 0.5
 ```
 
 ### 3. Training Metrics
+*This model was trained in a cloud GPU environment (Google Colab, NVIDIA T4).*
 The model was trained on a proprietary, localized dataset. Due to PII (Personally Identifiable Information) constraints regarding student identities, raw validation batches are not published. Automated MLOps metrics are provided below:
 
 * Mean Average Precision (mAP@50): 99.5%
