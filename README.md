@@ -37,7 +37,7 @@ python src/run.py --model weights/best.pt --source usb0 --thresh 0.5
 ### 3. Training Metrics
 The model was trained on a proprietary, localized dataset. Due to PII (Personally Identifiable Information) constraints regarding student identities, raw validation batches are not published. Automated MLOps metrics are provided below:
 
-* mAP@50: 99.5%
+* Mean Average Precision (mAP@50): 99.5%
 * Precision: 99.8%
 * Recall: 100%
 ____________________________________
