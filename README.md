@@ -41,9 +41,9 @@ python src/run.py --model weights/best.pt --source usb0 --thresh 0.5
 Due to PII (Personally Identifiable Information) constraints regarding student identities, raw validation batches are not published. 
 #### Automated MLOps metrics:
 
-* Mean Average Precision (mAP@50): 99.5%
-* Precision: 99.8%
-* Recall: 100%
+* **Mean Average Precision (mAP@50):** 99.5%
+* **Precision:** 99.8%
+* **Recall:** 100%
 ____________________________________
 
 Developed by Matlih
