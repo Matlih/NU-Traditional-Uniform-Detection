@@ -36,7 +36,10 @@ python src/run.py --model weights/best.pt --source usb0 --thresh 0.5
 
 ### 3. Training Metrics
 *This model was trained in a cloud GPU environment (Google Colab, NVIDIA T4).*
-The model was trained on a proprietary, localized dataset. Due to PII (Personally Identifiable Information) constraints regarding student identities, raw validation batches are not published. Automated MLOps metrics are provided below:
+#### **Proprietary Data Engineering:** The dataset utilized for this pipeline was entirely custom-built.
+* All training and validation imagery was physically acquired, curated, and manually annotated in-house to ensure high-fidelity localization of the traditional uniform. 
+Due to PII (Personally Identifiable Information) constraints regarding student identities, raw validation batches are not published. 
+#### Automated MLOps metrics:
 
 * Mean Average Precision (mAP@50): 99.5%
 * Precision: 99.8%
