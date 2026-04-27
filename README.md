@@ -44,6 +44,8 @@ Due to PII (Personally Identifiable Information) constraints regarding student i
 * **Mean Average Precision (mAP@50):** 99.5%
 * **Precision:** 99.8%
 * **Recall:** 100%
-____________________________________
 
-Developed by Matlih
+## 🛡️ Project Engineering Team
+* **Montazar Matlih** — Lead Machine Learning Architect
+* **Arjay Almazan** — Data Operations Engineer
+* **Richard Dolores** — Data Operations Engineer
